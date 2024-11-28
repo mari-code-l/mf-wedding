@@ -58,13 +58,12 @@ button.navbar-toggler{
   .hero-text {
     text-align: right;
     position: absolute;
-    font-family: "Parisienne", cursive;
-    font-weight: 400;
-    font-style: normal;
+    font-family: "Cormorant Garamond", serif;
     top: 60%;
     right: 10%;
+    color: rgb(236, 236, 236);
+    font-weight: 400;
   }
-
 
   .img-fluid{
   height: auto; 
