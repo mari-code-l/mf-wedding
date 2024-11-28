@@ -82,7 +82,10 @@ button.navbar-toggler{
   }
 
   .display-5{
-    text-shadow: 2px 2px #727272;
+    text-shadow: 1px 1px #727272;
+    font-family: "Parisienne", serif;
+    font-weight: 400;
+    font-style: normal;
   }
 
   p.lead{
