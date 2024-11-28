@@ -16,13 +16,11 @@ body {
 .navbar-nav{
     font-family: 'Crimson Pro', serif;
     padding-left: 15px;
-    background-color:#f0f0ed;
     list-style: none;
     position:absolute;
     right: 0.1%;
     border-style: none;
     text-align: center;
-    background: #f0f0ed;
     margin-top: 22px;
     margin-bottom: 22px;
     opacity: 0.8;
@@ -34,6 +32,7 @@ body {
   font-family: 'Bodoni Moda', serif;
   font-size: 20px;
   margin-top: 0px;
+  opacity: 0.7;
 }
 
 li.nav-item{
