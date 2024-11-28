@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(https://i.ibb.co/kQC27BP/adults-blur-couple-888899.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+/* NAV */
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.2rem;
+    background-color: white;
+    color: black;
+    padding: 3rem;
+    text-align: center;
+}
+
+li {
+    padding: 0.5rem;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #7b6392;
+}
+
+#menu-icon {
+    display: none;
+    color: #7b6392;
+}
+
+a:hover#menu-icon {
+
+	color: white;
+
+}
+
+/* Register in Nav */
+.register {
+    font-size: 1.2rem;
+    font-family: 'Oswald', sans-serif;
+    color: black;
+    background-color: white;
+    border: 2px solid #7b6392;
+    padding: 0.5rem;  
+}
+
+.register:hover {
+    background-color: lightgrey;
+    
+}
+
+/* Main section */
+main {
+    text-align: center;
+    position: relative;
+    top: 15rem;;
+    margin-bottom: 30rem;
+    background-color: rgba(123, 99, 146, 0.3);
+    
+}
+
+.names {
+    font-family: 'Petit Formal Script', cursive;
+    font-size: 2rem;
+}
+
+h1{
+    font-size: 6rem;
+    font-weight: lighter;
+}
+
+.date {
+    font-size: 1rem;
+    margin-top: 2rem;
+    font-weight: lighter;
+    
+    
+}
+
+.rsvp {
+    margin: 3rem 0 1rem;
+    background-color: #7b6392;
+    color: white;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    font-weight: lighter;
+    border: none;
+}
+
+/* Footer */
+footer {
+    background-color: black;
+    color: white;
+    padding: 1rem 0;
+    width: 100%;
+    position: relative;
+    bottom: auto;
+    font-size: 1.2rem;
+    
+}
+
+.copyright, .socials {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.socials {
+    margin-bottom: 1rem;
+    padding: 0 35%;
+}
+
+/*MEDIA QUERY*/
+@media only screen and (max-width : 640px) {
+
+    /* Mobile Nav */
+	#menu-icon {
+        display:inline-block;
+        font-size: 2rem;
+        padding-left: 85%;
+        padding-top: 5%;
+	}
+
+	nav ul { 
+		display: none;
+		position: absolute;
+		padding: 5px;
+		background: #fff;
+		border: 5px solid #7b6392;
+		right: 40px;
+		top: 60px;
+		width: 50%;
+		border-radius: 4px 0 4px 4px;
+        z-index: 1;
+	}
+
+	nav li {
+		text-align: center;
+		width: 100%;
+		padding: 10px 0;
+		margin: 0;
+	}
+
+	nav:hover ul {
+        display: block;
+    }
+    
+    li:hover {
+        background-color: rgba(123, 99, 146, 0.3);
+    }
+
+}
