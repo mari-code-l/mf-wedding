@@ -89,7 +89,9 @@ button.navbar-toggler{
     font-size: 28px;
     font-weight: lighter;
     font-style: initial;
-    text-shadow: 1px 1px #727272;
+    text-shadow: 1px 1px #d2d1d1;
+    color: #111111;
+    opacity: 0.7;
   }
 
   div#map {
