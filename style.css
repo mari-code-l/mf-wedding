@@ -62,10 +62,10 @@ button.navbar-toggler{
     top: 60%;
     right: 10%;
     color: rgb(236, 236, 236);
-    font-weight: 100;
+    font-weight: 400;
   }
 
-  .hero-text {
+  .the {
     font-family: "Parisienne", cursive;
     font-weight: 400;
     font-style: normal;
