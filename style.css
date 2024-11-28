@@ -49,7 +49,7 @@ button.navbar-toggler{
 }
 
 .hero-image {
-    background-image: url("images/SD.png");
+    background-image: url("images/bg.jpg");
     height: 768px; 
     background-position: center;
     background-repeat: repeat-x;
