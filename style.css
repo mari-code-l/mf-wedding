@@ -29,7 +29,7 @@ body {
 }
 
 .navbar-brand{
-  font-family: 'Bodoni Moda', serif;
+  font-family: "Cormorant Garamond", serif;
   font-size: 20px;
   margin-top: 0px;
   opacity: 0.7;
@@ -82,7 +82,7 @@ button.navbar-toggler{
   }
 
   .display-5{
-    text-shadow: 2px 2px #111111;
+    text-shadow: 2px 2px #727272;
   }
 
   p.lead{
