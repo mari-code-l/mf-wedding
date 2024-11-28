@@ -78,7 +78,7 @@ button.navbar-toggler{
     position: relative;
     transition: 0.2s;
     background-color: transparent;
-    color: #08080868;
+    color: #ededed68;
   }
 
   .display-5{
@@ -89,7 +89,7 @@ button.navbar-toggler{
     font-size: 28px;
     font-weight: lighter;
     font-style: initial;
-    text-shadow: 2px 2px #111111;
+    text-shadow: 1px 1px #727272;
   }
 
   div#map {
