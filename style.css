@@ -91,12 +91,13 @@ button.navbar-toggler{
     font-size: 20px;
     font-weight: lighter;
     font-style: initial;
-    text-shadow: 1px 1px #d2d1d1;
+    text-shadow: 1px 1px #4b4a4a;
     color: #111111;
     font-family: "Cormorant Garamond", serif;
     font-weight: 400;
     font-style: normal;
     opacity: 0.7;
+    color: #bbb;
   }
 
   div#map {
