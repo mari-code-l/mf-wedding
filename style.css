@@ -56,7 +56,6 @@ button.navbar-toggler{
   .hero-text {
     text-align: right;
     position: absolute;
-    font-family: "Cormorant Garamond", serif;
     top: 60%;
     right: 10%;
     color: rgb(236, 236, 236);
@@ -86,6 +85,7 @@ button.navbar-toggler{
     font-family: "Parisienne", serif;
     font-weight: 400;
     font-style: normal;
+    font-family: "Cormorant Garamond", serif;
   }
 
   p.lead{
@@ -94,6 +94,9 @@ button.navbar-toggler{
     font-style: initial;
     text-shadow: 1px 1px #d2d1d1;
     color: #111111;
+    font-family: "Parisienne", serif;
+    font-weight: 400;
+    font-style: normal;
   }
 
   div#map {
