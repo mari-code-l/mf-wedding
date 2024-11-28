@@ -50,8 +50,7 @@ button.navbar-toggler{
     background-position: center;
     background-repeat: repeat-x;
     background-size: cover;
-    background-position-x: left;
-    padding-right: 20%;
+    background-position-x: 20%;
 }
 
   .hero-text {
