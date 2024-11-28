@@ -82,10 +82,9 @@ button.navbar-toggler{
 
   .display-5{
     text-shadow: 1px 1px #727272;
-    font-family: "Parisienne", serif;
+    font-family: "Pinyon Script", cursive;
     font-weight: 400;
     font-style: normal;
-    font-family: "Cormorant Garamond", serif;
   }
 
   p.lead{
@@ -95,8 +94,9 @@ button.navbar-toggler{
     text-shadow: 1px 1px #d2d1d1;
     color: #111111;
     font-family: "Parisienne", serif;
-    font-weight: 400;
+    font-weight: 200;
     font-style: normal;
+    opacity: 0.7;
   }
 
   div#map {
