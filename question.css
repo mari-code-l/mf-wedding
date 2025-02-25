@@ -1,8 +1,12 @@
-/* Questionaire */
-
-
 *{
     box-sizing:border-box;
+  }
+  body{
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
   }
   
   .form-container{
@@ -101,4 +105,3 @@
   .form-container button,.form-container label{
     cursor: pointer;
   }
-  
