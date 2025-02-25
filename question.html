@@ -21,7 +21,7 @@
 <header>
     <nav class="navbar navbar-expand-sm navbar-light fixed-top">
       <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">Maridel | Florian </a>
+        <a class="navbar-brand" href="index.html">M | F </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -45,7 +45,7 @@
                 <a class="nav-link" tabindex="-1" aria-disabled="true" href="#">Gallery</a>
               </li>
               <li class="nav-item mx-auto" style="width: 80px;">
-                <a class="nav-link" href="question.html">RSVP</a>
+                <a class="nav-link" href="#contact">RSVP</a>
               </li>
             </ul>
         </div>
@@ -53,78 +53,82 @@
     </nav>
 </header>
 
-<body>
-   <div class="form-container cf-form">
-  <form id="questionnaire-form">
-    <div class="slide-container">
-      <div class="slide">
-        <h2> Do you have more than 100 students? </h2>
-        <div class="radio-container">
-          <input type="radio" id="match_1" name="num_students" value="yes">
-          <label for="match_1"> Yes</label>
+<body style="background-color:rgb(136, 136, 136);">
+
+  <div class="form-container cf-form">
+    <form id="questionnaire-form">
+      <div class="slide-container">
+        <div class="slide">
+          <h2> Do you have more than 100 students? </h2>
+          <div class="radio-container">
+            <input type="radio" id="match_1" name="num_students" value="yes">
+            <label for="match_1"> Yes</label>
+          </div>
+          <div class="radio-container">
+            <input type="radio" id="match_2" name="num_students" value="no"> 
+            <label for="match_2"> No</label>
+          </div>
+          <div class="error-message"> Please Select an Answer </div>
         </div>
-        <div class="radio-container">
-          <input type="radio" id="match_2" name="num_students" value="no"> 
-          <label for="match_2"> No</label>
+        <div class="slide">
+          <h2> Do you host at least one recital per year? </h2>
+          <div class="radio-container">
+            <input type="radio" id="q2_match_1" name="recital_year" value="yes">
+            <label for="q2_match_1"> Yes</label>
+          </div>
+          <div class="radio-container">
+            <input type="radio" id="q2_match_2" name="recital_year" value="no"> 
+            <label for="q2_match_2"> No</label>
+          </div>
+          <div class="error-message"> Please Select an Answer </div>
         </div>
-        <div class="error-message"> Please Select an Answer </div>
-      </div>
-      <div class="slide">
-        <h2> Do you host at least one recital per year? </h2>
-        <div class="radio-container">
-          <input type="radio" id="q2_match_1" name="recital_year" value="yes">
-          <label for="q2_match_1"> Yes</label>
+        <div class="slide">
+          <h2> Do you usually have your recital recorded? * </h2>
+          <div class="radio-container">
+            <input type="radio" id="q3_match_1" name="recorded" value="yes">
+            <label for="q3_match_1"> Yes</label>
+          </div>
+          <div class="radio-container">
+            <input type="radio" id="q3_match_2" name="recorded" value="no"> 
+            <label for="q3_match_2"> No</label>
+          </div>
+          <div class="error-message"> Please Select an Answer </div>
         </div>
-        <div class="radio-container">
-          <input type="radio" id="q2_match_2" name="recital_year" value="no"> 
-          <label for="q2_match_2"> No</label>
+        <div class="slide">
+          <h2> Great! Add your contact info next </h2>
+          <p>It is important that you are accessible :) So please add the best way to get ahold of you. </p>
         </div>
-        <div class="error-message"> Please Select an Answer </div>
-      </div>
-      <div class="slide">
-        <h2> Do you usually have your recital recorded? * </h2>
-        <div class="radio-container">
-          <input type="radio" id="q3_match_1" name="recorded" value="yes">
-          <label for="q3_match_1"> Yes</label>
+        <div class="slide">
+          <h2>What is your name? </h2>
+          <input type="text" name="lead_name" placeholder="Ryan" id="last_input">
+          <div class="error-message"> Please fill in your name </div>
         </div>
-        <div class="radio-container">
-          <input type="radio" id="q3_match_2" name="recorded" value="no"> 
-          <label for="q3_match_2"> No</label>
+        <div class="slide">
+          <h2>What is your email? </h2>
+          <input type="email" name="lead_email" placeholder="ryan@envoypictures.com" id="last_input">
+          <div class="error-message"> Please fill in your email </div>
         </div>
-        <div class="error-message"> Please Select an Answer </div>
+        <div class="slide">
+          <h2>What is your cell phone number? </h2>
+          <input type="text" name="phone" placeholder="+000000000" id="last_input">
+          <div class="error-message"> Please fill in your phone number </div>
+        </div>
+        <div class="slide">
+          <h2>What is the best day and time to call? </h2>
+          <input type="text" name="time_day" placeholder="9:00am MWF" id="last_input">
+          <div class="error-message"> Please fill in the best time and day to contact you </div>
+        </div>
       </div>
-      <div class="slide">
-        <h2> Great! Add your contact info next </h2>
-        <p>It is important that you are accessible :) So please add the best way to get ahold of you. </p>
-      </div>
-      <div class="slide">
-        <h2>What is your name? </h2>
-        <input type="text" name="lead_name" placeholder="Ryan" id="last_input">
-        <div class="error-message"> Please fill in your name </div>
-      </div>
-      <div class="slide">
-        <h2>What is your email? </h2>
-        <input type="email" name="lead_email" placeholder="ryan@envoypictures.com" id="last_input">
-        <div class="error-message"> Please fill in your email </div>
-      </div>
-      <div class="slide">
-        <h2>What is your cell phone number? </h2>
-        <input type="text" name="phone" placeholder="+000000000" id="last_input">
-        <div class="error-message"> Please fill in your phone number </div>
-      </div>
-      <div class="slide">
-        <h2>What is the best day and time to call? </h2>
-        <input type="text" name="time_day" placeholder="9:00am MWF" id="last_input">
-        <div class="error-message"> Please fill in the best time and day to contact you </div>
-      </div>
+    </form>
+    <div class="buttons-container">
+      <button class="btn-white btn-previous">Previous</button>
+      <button class="btn-white btn-next">Next</button>
+      <button class="float-right btn-submit" disabled>Submit</button>
     </div>
-  </form>
-  <div class="buttons-container">
-    <button class="btn-white btn-previous">Previous</button>
-    <button class="btn-white btn-next">Next</button>
-    <button class="float-right btn-submit" disabled>Submit</button>
   </div>
-</div>
+
+    </div>
+
 
               <div class="copyright fixed-bottom">&copy; 2024 M|F Wedding</div>
       
