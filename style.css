@@ -71,7 +71,7 @@ button.navbar-toggler{
   font-family: 'Oswald', sans-serif;
   }
 
-  .btn.btn-warning:hover{
+  .btn.btn-dark.border-0btn-warning:hover{
     cursor: pointer;
     position: relative;
     transition: 0.2s;
