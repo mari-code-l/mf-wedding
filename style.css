@@ -112,7 +112,7 @@ button.navbar-toggler{
   .btn.btn-dark.border-0 {
     font-family: "Cormorant Garamond", serif;
     letter-spacing: normal;
-    background-color: #d3b683;
+    background-color: #8b0e0efe;
     color: #ffffff;
     border-color: none;
     list-style: none;
@@ -121,7 +121,7 @@ button.navbar-toggler{
 /* Playlist */
 
 .music {
-  background-color: #ab946b;
+  background-color: #c4c4c4df;
   position: relative;
   background-repeat: repeat;
   margin-top: 20%;
