@@ -46,7 +46,7 @@ button.navbar-toggler{
 
 .hero-image {
     background-image: url("images/bg.jpg");
-    height: 932px; 
+    height: 768px; 
     background-position: center;
     background-repeat: repeat-x;
     background-size: cover;
@@ -80,7 +80,7 @@ button.navbar-toggler{
   }
 
   .display-5{
-    text-shadow: 2px 2px #727272;
+    text-shadow: 1px 1px #727272;
     font-weight: 200;
     font-style: normal;
     font-family: "Cormorant Garamond", serif;
@@ -112,7 +112,7 @@ button.navbar-toggler{
   .btn.btn-dark.border-0 {
     font-family: "Cormorant Garamond", serif;
     letter-spacing: normal;
-    background-color: #8b0e0efe;
+    background-color: #d3b683;
     color: #ffffff;
     border-color: none;
     list-style: none;
@@ -383,10 +383,6 @@ button.navbar-toggler{
     .copyright {
       padding-bottom: 40px;
     }  
-
-    .h4.display-5.text-center {
-      font-size: 40px;
-    }
 
 
   .send-button {
