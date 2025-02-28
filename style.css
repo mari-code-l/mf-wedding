@@ -447,12 +447,14 @@ button.navbar-toggler{
 
   div.hero-text{
     font-size: 23px;
-    top: 65%;
+    top: 70%;
     right: 10%;
   }
 
   .hero-image{
-    height: 667px;
+    font-size: 23px;
+    top: 50%;
+    right: 10%;
   }
 
   #contact{
