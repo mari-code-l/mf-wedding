@@ -441,6 +441,19 @@ button.navbar-toggler{
     font-size: 30px;
   }
 
+  p.lead.text-center{
+    font-size: 23px;
+  }
+
+  div.hero-text{
+    font-size: 23px;
+    top: 70%;
+    right: 10%;
+  }
+
+  .hero-image{
+    height: 667px;
+  }
 
   #contact{
     height: 900px;
