@@ -71,7 +71,7 @@ button.navbar-toggler{
   font-family: 'Oswald', sans-serif;
   }
 
-  .btn.btn-dark.btn-warning:hover{
+  .btn.btn-dark.border-0:hover{
     cursor: pointer;
     position: relative;
     transition: 0.2s;
@@ -116,7 +116,7 @@ button.navbar-toggler{
     color: #111111;
     border-color: none;
     list-style: none;
-    opacity: 0.7;
+    opacity: 0.5;
   }
 
 /* Playlist */
