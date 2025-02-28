@@ -46,7 +46,7 @@ button.navbar-toggler{
 
 .hero-image {
     background-image: url("images/bg.jpg");
-    height: 768px; 
+    height: 932px; 
     background-position: center;
     background-repeat: repeat-x;
     background-size: cover;
@@ -381,7 +381,7 @@ button.navbar-toggler{
     }
   
     .copyright {
-      padding-bottom: 20px;
+      padding-bottom: 40px;
     }  
 
 
