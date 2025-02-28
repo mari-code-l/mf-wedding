@@ -109,10 +109,10 @@ button.navbar-toggler{
     background-color: black;
   }
 
-  a.btn{
+  .btn.btn-dark.border-0 {
     font-family: "Cormorant Garamond", serif;
     letter-spacing: normal;
-    background-color: #b19d9d;
+    background-color: #b9a2a2;
     color: #111111;
     border-color: none;
     list-style: none;
