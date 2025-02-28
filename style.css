@@ -343,6 +343,12 @@ button.navbar-toggler{
   #contact {
       height: 500px;
   }
+  .hero-image
+  {
+    height: 1366px;
+}
+
+
   
 }
 
@@ -424,8 +430,8 @@ button.navbar-toggler{
     height: 900px;
   }
 
-  .hero-text {
-font-size: 40px;
+  .h4.display-5.text-center {
+    font-size: 40px;
   }
 }
 
