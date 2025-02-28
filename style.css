@@ -112,11 +112,10 @@ button.navbar-toggler{
   .btn.btn-dark.border-0 {
     font-family: "Cormorant Garamond", serif;
     letter-spacing: normal;
-    background-color: #df2222;
-    color: #111111;
+    background-color: #ff0000;
+    color: #ffffff;
     border-color: none;
     list-style: none;
-    font-weight: 500;
   }
 
 /* Playlist */
