@@ -112,7 +112,7 @@ button.navbar-toggler{
   .btn.btn-dark.border-0 {
     font-family: "Cormorant Garamond", serif;
     letter-spacing: normal;
-    background-color: #d3b683;
+    background-color: #760707;
     color: #ffffff;
     border-color: none;
     list-style: none;
@@ -378,6 +378,14 @@ button.navbar-toggler{
 @media screen and (max-width: 569px) {
   #contact {
     height: 1200px;
+    }
+
+    .h4.display-5.text-center {
+      font-size: 40px;
+    }
+
+    .hero-image{
+      height: 1000px;
     }
   
     .copyright {
