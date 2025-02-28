@@ -384,8 +384,9 @@ button.navbar-toggler{
       font-size: 40px;
     }
 
-    .hero-image{
-      height: 550px;
+    h5.display-5text-center{
+      font-size: 20px;
+      margin-bottom: 10px;
     }
   
     .copyright {
