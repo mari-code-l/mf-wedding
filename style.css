@@ -434,6 +434,7 @@ button.navbar-toggler{
 @media screen and (max-width: 410px) {
   .send-button {
     width: 100%;
+    height: 667;
   }
 
 
@@ -448,12 +449,6 @@ button.navbar-toggler{
   div.hero-text{
     font-size: 23px;
     top: 70%;
-    right: 10%;
-  }
-
-  .hero-image{
-    font-size: 23px;
-    top: 50%;
     right: 10%;
   }
 
