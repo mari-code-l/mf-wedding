@@ -76,7 +76,7 @@ button.navbar-toggler{
     position: relative;
     transition: 0.2s;
     background-color: transparent;
-    color: #eaf0b951;
+    color: #1d1e1d51;
   }
 
   .display-5{
@@ -112,7 +112,7 @@ button.navbar-toggler{
   a.btn{
     font-family: "Cormorant Garamond", serif;
     letter-spacing: normal;
-    background-color: #c7c5c5;
+    background-color: #b19d9d;
     border-color: none;
     list-style: none;
     opacity: 0.7;
