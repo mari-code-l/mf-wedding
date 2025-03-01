@@ -403,12 +403,6 @@ button.navbar-toggler{
   }  
 }
 
-@media screen and (max-width: 425px) {
-    
-    .hero-image {
-      height: 700px; 
-  }
-   }
 
 @media screen and (max-width: 410px) {
   .send-button {
@@ -495,4 +489,16 @@ section {
   width: 100px; 
   margin: auto;
 }
+}
+
+@media screen and (max-width: 375px) {
+
+
+ .hero-image 
+ {
+  height: 635px;
+}
+  div.hero-text {
+    top: 20%;
+  }
 }
