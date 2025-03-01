@@ -447,13 +447,12 @@ button.navbar-toggler{
 
   div.hero-text{
     font-size: 20px;
-    top: 80%;
+    bottom: 20%;
     right: 10%;
   }
 
   p.lead.text-center{
     font-size: 18px;
-
     right: 10%;
   }
 
