@@ -403,6 +403,13 @@ button.navbar-toggler{
   }  
 }
 
+@media screen and (max-width: 425px) {
+    
+    .hero-image {
+      height: 700px; 
+  }
+   }
+
 @media screen and (max-width: 410px) {
   .send-button {
     width: 100%;
