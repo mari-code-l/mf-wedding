@@ -58,7 +58,7 @@ button.navbar-toggler{
     position: absolute;
     top: 60%;
     right: 10%;
-    color: rgb(236, 236, 236);
+    color: rgb(243, 244, 236);
     font-weight: 400;
   }
 
@@ -81,7 +81,7 @@ button.navbar-toggler{
 
   .display-5{
     text-shadow: 1px 1px #727272;
-    font-weight: 200;
+    font-weight: 300;
     font-style: normal;
     font-family: "Cormorant Garamond", serif;
     font-size: 40px;
@@ -92,7 +92,7 @@ button.navbar-toggler{
     font-weight: lighter;
     font-style: initial;
     text-shadow: 1px 1px #acabab;
-    color: #111111;
+    color: #111010;
     font-family: "Cormorant Garamond", serif;
     font-weight: 400;
     font-style: normal;
@@ -379,7 +379,7 @@ button.navbar-toggler{
 @media screen and (max-width: 569px) {
     
   h5.display-5.text-center{
-      font-size: 40px;
+      font-size: 30px;
       margin-bottom: 10px;
     }
 
