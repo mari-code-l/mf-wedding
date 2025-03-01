@@ -446,15 +446,16 @@ button.navbar-toggler{
   }
 
   div.hero-text{
-    font-size: 23px;
-    top: 70%;
+    font-size: 20px;
+    top: 80%;
     right: 10%;
   }
 
-  #contact{
-    height: 900px;
+  p.lead.text-center{
+    font-size: 18px;
+
+    right: 10%;
   }
-}
 
 a{
   color: #111
