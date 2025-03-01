@@ -496,9 +496,10 @@ section {
 
  .hero-image 
  {
-  height: 635px;
+  height: 610px;
 }
   div.hero-text {
-    top: 20%;
+    top: 15%;
+    left: 30px;
   }
 }
