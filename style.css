@@ -403,10 +403,53 @@ button.navbar-toggler{
   }  
 }
 
+@media screen and (max-width: 569px) {
+    
+  h5.display-5.text-center{
+      font-size: 30px;
+      margin-bottom: 10px;
+    }
 
-@media screen and (max-width: 410px) {
+    .hero-image {
+      height: 880px; 
+  }
+
   .send-button {
     width: 100%;
+  }
+
+  .form-horizontal{
+    width: 300px;
+  }
+  .section-header{
+    font-size: 20px;
+  }
+  .direct-contact-container, .form-wrapper {
+    float: none;
+    margin: 0 auto;
+  }  
+}
+
+@media screen and (max-width: 444px) {
+  
+  div.hero-text{
+    top: 20%;
+  }
+}
+
+@media screen and (max-width: 431px) {
+
+  div.hero-text{
+    top: 20%;
+    right: 20%;
+  }
+}
+
+
+@media screen and (max-width: 411px) {
+  .send-button {
+    width: 100%;
+    right: 20%;
   }
 
   h5.display-5.text-center{
