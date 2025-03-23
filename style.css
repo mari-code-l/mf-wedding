@@ -62,14 +62,13 @@ button.navbar-toggler{
     font-weight: 400;
   }
 
-  .invi-image {
-    background-image: url("images/1.jpg");
-    height: 800px; 
+  .responsive {
+    width: 100%;
+    height: auto;
     background-position: center;
-    background-repeat: repeat-x;
-    background-size: cover;
-    background-position-x: 30%;
-}
+    background-size: contain;
+    object-fit: cover;
+  }
 
   .img-fluid{
   height: auto; 
