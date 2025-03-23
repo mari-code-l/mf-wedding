@@ -57,6 +57,130 @@
 <body>
     <div class="hero-image">
       <div class="hero-text">
+
+        <style>
+          .tonic-cd-style-5 {
+          max-width: 500px;
+          display: flex;
+          flex-direction: row;
+          gap: 15px;
+        }
+        
+        .tonic-cd-style-5 div {
+          display: flex;
+          flex-direction: column;
+          flex: 1 1 0px;
+          align-items: center;
+          justify-content: center;
+          text-align: center;
+          position: relative;
+        }
+        
+        .tonic-cd-style-5 strong {
+          color: #000000;
+          font-size: 60px;
+        }
+        
+        .tonic-cd-style-5 span {
+          margin-top: 10px;
+          color: #333333;
+          font-size: 18px;
+        }
+        
+        .tonic-cd-style-5 div:after {
+          content: ':';
+          position: absolute;
+          height: 100%;
+          left: 100%;
+          top: 50%;
+          display: inline-block;
+          transform: translateY(-50%);
+          font-size: 65px;
+          color: #333333;
+        }
+        
+        .tonic-cd-style-5 div:last-child::after {
+          content: '';
+        }
+        
+        .tonic-cd-style-5 .tonic-cd-end {
+          text-align: center;
+          font-weight: bold;
+          color: #333333 !important;
+          font-size: 25px !important;
+        }
+      </style>
+  
+      <div class="tonic-cd-countdown-7132 tonic-cd-style-5">
+        <div class="tonic-cd-days-7132"></div>
+        <div class="tonic-cd-hours-7132"></div>
+        <div class="tonic-cd-minutes-7132"></div>
+        <div class="tonic-cd-seconds-7132"></div>
+      </div>
+  
+      <script>
+        const targetDate = "2025-08-30 14:00:00";
+        const countdownSec = document.getElementsByClassName("tonic-cd-countdown-7132");
+        const timerDays = document.getElementsByClassName("tonic-cd-days-7132");
+        const timerHours = document.getElementsByClassName("tonic-cd-hours-7132");
+        const timerMinutes = document.getElementsByClassName("tonic-cd-minutes-7132");
+        const timerSeconds = document.getElementsByClassName("tonic-cd-seconds-7132");
+        const countdownEndNotice = "Countdown Over";
+  
+        const dateTime = new Date(targetDate);
+        const yyyy = dateTime.getFullYear();
+        const mm = String(dateTime.getMonth() + 1).padStart(2, "0");
+        const dd = String(dateTime.getDate()).padStart(2, "0");
+        const hour = String(dateTime.getHours()).padStart(2, "0");
+        const min = String(dateTime.getMinutes()).padStart(2, "0");
+        const sec = String(dateTime.getSeconds()).padStart(2, "0");
+  
+        const endDate = yyyy + "-" + mm + "-" + dd;
+        const endTime = hour + ":" + min + ":" + sec;
+        const endTimezone = "+00:00";
+        const endText = `<span class="tonic-cd-end">${countdownEndNotice}</span>`;
+  
+        const end = new Date(`${endDate}T${endTime}${endTimezone}`).getTime();
+  
+        const seconds = 1000;
+        const minutes = seconds * 60;
+        const hours = minutes * 60;
+        const days = hours * 24;
+        const x = setInterval(function() {
+          let now = new Date().getTime();
+          const difference = end - now;
+  
+          if (difference < 0) {
+            clearInterval(x);
+            countdownSec.innerHTML = endText;
+            return;
+          }
+  
+          Array.from(timerDays).forEach(
+            (dayEl) =>
+            (dayEl.innerHTML =
+              "<strong>" + Math.floor(difference / days) + "</strong><span>Days</span>")
+          );
+          Array.from(timerHours).forEach(
+            (hoursEl) =>
+            (hoursEl.innerHTML =
+              "<strong>" + Math.floor((difference % days) / hours) + "</strong><span>Hours</span>")
+          );
+          Array.from(timerMinutes).forEach(
+            (minutesEl) =>
+            (minutesEl.innerHTML =
+              "<strong>" + Math.floor((difference % hours) / minutes) +
+              "</strong><span>Minutes</span>")
+          );
+          Array.from(timerSeconds).forEach(
+            (secondsEl) =>
+            (secondsEl.innerHTML =
+              "<strong>" + Math.floor((difference % minutes) / seconds) +
+              "</strong><span>Seconds</span>")
+          );
+        }, seconds);
+      </script>  
+    
         <div class="align-right">
           <h5 class="display-5 text-center">30 | 08 | 2025 </h5>
           <hr class="my-3">
