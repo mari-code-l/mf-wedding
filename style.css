@@ -62,14 +62,6 @@ button.navbar-toggler{
     font-weight: 400;
   }
 
-  .responsive {
-    width: 100%;
-    height: auto;
-    background-position: center;
-    background-size: contain;
-    object-fit: cover;
-  }
-
   .img-fluid{
   height: auto; 
   width: auto; 
