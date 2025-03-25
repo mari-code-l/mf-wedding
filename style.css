@@ -26,6 +26,7 @@ body {
     opacity: 0.8;
     border-radius: 5px;
     overflow: hidden;
+    text-shadow: 1px 1px #ffffff;
 }
 
 .navbar-brand{
