@@ -49,9 +49,7 @@ button.navbar-toggler{
     background-image: url("images/beach.jpg");
     height: 800px; 
     background-position: center;
-    background-repeat: repeat-x;
     background-size: cover;
-    background-position-x: 20%;
 }
 
   .hero-text {
