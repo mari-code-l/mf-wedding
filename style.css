@@ -49,7 +49,7 @@ button.navbar-toggler{
     background-image: url("images/happy.jpg");
     height: 800px; 
     background-position-x: right;
-    background-size: cover;
+    background-size: contain;
 }
 
   .hero-text {
