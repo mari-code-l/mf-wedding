@@ -46,7 +46,7 @@ button.navbar-toggler{
 }
 
 .hero-image {
-    background-image: url("images/happy.jpg");
+    background-image: url("images/bg.jpg");
     height: 800px; 
     background-position-x: right;
     background-size: contain;
