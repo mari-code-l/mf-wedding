@@ -5,12 +5,10 @@
   content: $content;
 }
 
-
 .hero-image {
     background-image: url("images/car.jpg");
     height: 800px; 
     background-position: center;
-    background-repeat: repeat-x;
     background-size: cover;
     background-position-x: center;
 }
@@ -24,14 +22,9 @@
     font-weight: 100;
   }
 
-
   .img-fluid{
   height: auto; 
   width: auto; 
-  }
-
-  div.col-md-12{
-  font-family: 'Oswald', sans-serif;
   }
 
   .btn.btn-warning:hover{
