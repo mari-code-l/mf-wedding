@@ -160,6 +160,53 @@ body {
   }
 }
 
+.hero-image {
+    background-image: url("images/bg.jpg");
+    height: 768px; 
+    background-position: center;
+    background-repeat: repeat-x;
+    background-size: cover;
+    background-position-x: right;
+}
+
+  .hero-text {
+    text-align: right;
+    position: absolute;
+    top: 60%;
+    right: 10%;
+    color: rgb(236, 236, 236);
+    font-weight: 100;
+  }
+
+  .img-fluid{
+  height: auto; 
+  width: auto; 
+  }
+
+  div.col-md-12{
+  font-family: 'Oswald', sans-serif;
+  }
+
+  .btn.btn-warning:hover{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.2s;
+    background-color: transparent;
+    color: #08080868;
+  }
+
+  .display-5{
+    text-shadow: 2px 2px #111111;
+  }
+
+  p.lead{
+    font-size: 28px;
+    font-weight: lighter;
+    font-style: initial;
+    text-shadow: 2px 2px #111111;
+  }
+
 .copyright {
     font: 200 14px 'Oswald', sans-serif;
     color: #555;
