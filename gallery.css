@@ -4,7 +4,7 @@
     background-image: url("images/mf.jpg");
     height: 800px; 
     background-size: cover;
-    background-position-x: right 80%;
+    background-position: right 20%;
 }
 
   .hero-text {
