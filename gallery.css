@@ -3,10 +3,8 @@
 .hero-image {
     background-image: url("images/mf.jpg");
     height: 800px; 
-    background-position: center;
     background-size: cover;
-    background-position-x: center;
-    right: 20%;
+    background-position-x: right 80%;
 }
 
   .hero-text {
