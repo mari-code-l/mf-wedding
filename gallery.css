@@ -12,9 +12,10 @@
     position: absolute;
     top: 60%;
     right: 20%;
-    color: rgb(20, 20, 20);
+    color: rgb(255, 255, 255);
     font-weight: 100;
     font-family: "Cormorant Garamond", serif;
+    text-shadow: 1px 1px #c1c1c1;
   }
 
   .img-fluid{
@@ -36,11 +37,13 @@
   }
 
   p.lead{
-    font-size: 23px;
+    font-size: 20px;
     font-weight: lighter;
     font-style: initial;
-    text-shadow: 1px 1px #ffffff;
+    text-shadow: 1px 1px #c1c1c1;
     font-family: "Cormorant Garamond", serif;
+    background-color: transparent;
+    color: #ffffff;
   }
 
 .copyright {
