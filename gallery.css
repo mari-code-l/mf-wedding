@@ -36,10 +36,11 @@
   }
 
   p.lead{
-    font-size: 28px;
+    font-size: 23px;
     font-weight: lighter;
     font-style: initial;
-    text-shadow: 2px 2px #111111;
+    text-shadow: 1px 1px #ffffff;
+    font-family: "Cormorant Garamond", serif;
   }
 
 .copyright {
