@@ -15,7 +15,6 @@
     color: rgb(255, 255, 255);
     font-weight: 100;
     font-family: "Cormorant Garamond", serif;
-    text-shadow: 1px 1px #c1c1c1;
   }
 
   .img-fluid{
@@ -25,11 +24,10 @@
 
   .btn.btn-warning:hover{
     cursor: pointer;
-    display: inline-block;
     position: relative;
     transition: 0.2s;
     background-color: transparent;
-    color: #08080868;
+    color: #fffcfc68;
   }
 
   .display-1{
@@ -40,7 +38,7 @@
     font-size: 20px;
     font-weight: lighter;
     font-style: initial;
-    text-shadow: 1px 1px #c1c1c1;
+    text-shadow: 1px 1px #a2a0a0;
     font-family: "Cormorant Garamond", serif;
     background-color: transparent;
     color: #ffffff;
