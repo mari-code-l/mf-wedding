@@ -6,14 +6,14 @@
     background-position: center;
     background-size: cover;
     background-position-x: center;
-   
+    right: 20%;
 }
 
   .hero-text {
     text-align: right;
     position: absolute;
     top: 60%;
-    right: 10%;
+    right: 20%;
     color: rgb(20, 20, 20);
     font-weight: 100;
     font-family: "Cormorant Garamond", serif;
